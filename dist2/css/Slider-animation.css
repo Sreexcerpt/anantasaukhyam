@@ -1,0 +1,109 @@
+.slide h1 {
+	transition: all 0.3s ease;
+	-webkit-transform: translateY(-20px);
+					transform: translateY(-20px);
+	opacity: 0;
+}
+
+.slide button {
+	transition: all 0.3s ease;
+	-webkit-transform: translateY(20px);
+					transform: translateY(20px);
+	opacity: 0;
+}
+
+.slide p {
+	transition: all 0.3s ease;
+	-webkit-transform: translateY(20px);
+					transform: translateY(20px);
+	opacity: 0;
+}
+
+.slide section * {
+	transition: all 0.3s ease;
+}
+
+.slide section img {
+	-webkit-transform: translateX(-10px);
+					transform: translateX(-10px);
+	opacity: 0;
+}
+
+.slide section span {
+	-webkit-transform: translateY(-10px);
+					transform: translateY(-10px);
+	opacity: 0;
+}
+
+.slide section span strong {
+	-webkit-transform: translateY(10px);
+					transform: translateY(10px);
+	opacity: 0;
+}
+
+
+.slide.current h1,
+.slide.current button,
+.slide.current p,
+.slide.current section * {
+	-webkit-transform: translateX(0);
+	        transform: translateX(0);
+	-webkit-transition-delay: .9s;
+					transition-delay: .9s;
+					opacity: 1;
+}
+
+.slide h1 {
+	transition: all 0.3s ease;
+	-webkit-transform: translateY(-20px);
+					transform: translateY(-20px);
+	opacity: 0;
+}
+
+.slide button {
+	transition: all 0.3s ease;
+	-webkit-transform: translateY(20px);
+					transform: translateY(20px);
+	opacity: 0;
+}
+
+.slide p {
+	transition: all 0.3s ease;
+	-webkit-transform: translateY(20px);
+					transform: translateY(20px);
+	opacity: 0;
+}
+
+.slide section * {
+	transition: all 0.3s ease;
+}
+
+.slide section img {
+	-webkit-transform: translateX(-10px);
+					transform: translateX(-10px);
+	opacity: 0;
+}
+
+.slide section span {
+	-webkit-transform: translateY(-10px);
+					transform: translateY(-10px);
+	opacity: 0;
+}
+
+.slide section span strong {
+	-webkit-transform: translateY(10px);
+					transform: translateY(10px);
+	opacity: 0;
+}
+
+
+.slide.current h1,
+.slide.current button,
+.slide.current p,
+.slide.current section * {
+	-webkit-transform: translateX(0);
+	        transform: translateX(0);
+	-webkit-transition-delay: .9s;
+					transition-delay: .9s;
+					opacity: 1;
+}
